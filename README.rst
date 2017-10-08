@@ -2,15 +2,20 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
-     :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/catherinedevlin/cookiecutter-sqlalchemy-utility/shield.svg
+     :target: https://pyup.io/repos/github/catherinedevlin/cookiecutter-sqlalchemy-utility/
      :alt: Updates
 
-Cookiecutter_ template for a Python package.
+A fork of audreyr's Cookiecutter_ template 
+for SQLAlchemy-based utilities.  Incorporates 
+SQLAlchemy elements from 
+`pyramid-cookiecutter-alchemy`_.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/catherinedevlin/cookiecutter-sqlalchemy-utility/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
+
+.. _`pyramid-cookiecutter-alchemy`: https://github.com/Pylons/pyramid-cookiecutter-alchemy
 
 Features
 --------
@@ -30,14 +35,14 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/catherinedevlin/cookiecutter-sqlalchemy-utility.svg
+    :target: https://travis-ci.org/catherinedevlin/cookiecutter-sqlalchemy-utility
     :alt: Linux build status on Travis CI
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
+.. image:: https://ci.appveyor.com/api/projects/status/github/catherinedevlin/cookiecutter-sqlalchemy-utility?branch=master&svg=true
+    :target: https://ci.appveyor.com/project/catherinedevlin/cookiecutter-sqlalchemy-utility/branch/master
     :alt: Windows build status on Appveyor
 
 Quickstart
@@ -50,7 +55,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/catherinedevlin/cookiecutter-sqlalchemy-utility.git
 
 Then:
 
@@ -67,7 +72,7 @@ Then:
 
 .. _`pip docs for requirements files`: https://pip.pypa.io/en/stable/user_guide/#requirements-files
 
-For more details, see the `cookiecutter-pypackage tutorial`_.
+For more details, see the `cookiecutter-sqlalchemy-utility tutorial`_.
 
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
@@ -125,4 +130,4 @@ make my own packaging experience better.
 .. _`ardydedase/cookiecutter-pypackage`: https://github.com/ardydedase/cookiecutter-pypackage
 .. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
 .. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _`family tree`: https://github.com/catherinedevlin/cookiecutter-pypackage/network/members
