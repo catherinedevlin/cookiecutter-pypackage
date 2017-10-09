@@ -11,6 +11,14 @@ for SQLAlchemy-based utilities.  Incorporates
 SQLAlchemy elements from 
 `pyramid-cookiecutter-alchemy`_.
 
+Assumptions of the default project:
+
+* Database connection info will be supplied with the 
+  `DATABASE_URL` environment variable 
+
+More info
+---------
+
 * GitHub repo: https://github.com/catherinedevlin/cookiecutter-sqlalchemy-utility/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
